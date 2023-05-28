@@ -1,0 +1,78 @@
+label{
+    width : 20% ;
+    display : inline-block;
+    text-align: left ;
+    padding: 9px;
+}
+body{
+    width : 50% ;
+    font-family: Arial;
+    margin : 50px auto ;
+    background : #f9e9d2;
+    padding : 20px;
+    color : #000;
+}
+fieldset{
+    border-radius: 8px;
+    background-color: white;
+}
+legend{
+    font-size : 1.4em;
+    margin-bottom: 10px;
+}
+input[type="text"],input[type="number"],input[type="email"]
+{
+    border-radius: 5px ;
+    padding : 10px ;
+    width : 70%;
+    background-color:#ffff ;
+    margin: 10px;
+}
+input[type="submit"]{
+  width:25%;
+  height:50px;
+  border: 1px solid;
+  background: #747cdf;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #e9f4fb;
+  font-weight: pointer;
+  outline: none;
+  transform: translate(315px, -2px);
+  margin-top:30px ;
+}
+input[type="submit"]:hover{
+  border-color: #747cdf;
+  transition: .5s;
+}
+nav{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+  }
+  nav h1{
+    font-size: 20px;
+  }
+  nav .onglets{
+    display: flex;
+    flex-wrap:wrap;
+  }
+  nav .onglets p a{
+    font-size: 17px;
+    margin-right: 10px;
+    cursor:pointer;
+    text-decoration: none;
+    color: #000;
+  }
+  nav .onglets input{
+    margin: 8px 20px;
+    padding: 15px;
+    border-radius: 30px;
+    border:none;
+    background-color: #f2f2f2;
+    outline:none;
+  }

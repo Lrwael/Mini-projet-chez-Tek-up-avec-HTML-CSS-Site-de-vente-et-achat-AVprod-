@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-scale=1.0">
+        <meta name="viewport" content="width=device-width , initial-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="contactstyle.css">
+    </head>
+    <body>
+        <fieldset>
+        <form>
+            <h1>Contactez-nous</h1>
+            <div class="separation"></div>
+            <div class="corps-formulaire">
+                <div class="gauche">
+                    <div class="groupe">
+                        <label>Votre nom et Prénom</label>
+                        <input type="text">
+                        <i class="fa-solid fa-user"></i>
+                    </div>
+                    <div class="groupe">
+                        <label>Votre adresse e-mail</label>
+                        <input type="email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                    <div class="groupe">
+                        <label>Votre téléphone</label>
+                        <input type="text" required pattern="[0-9]{8}">
+                        <i class="fa-solid fa-mobile"></i>
+                    </div>
+                </div>
+                <div class="droite">
+                    <div class="groupe">
+                        <label>Message</label>
+                        <textarea></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="pied-formulaire" align="center">
+            <button>Envoyer le message</button>
+            </div>
+        </form>
+        </fieldset>
+    </body>
+</html>
